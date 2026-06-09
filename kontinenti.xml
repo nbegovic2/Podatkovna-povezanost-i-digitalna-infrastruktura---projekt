@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kontinenti>
+  <kontinent ime="Europa">
+    <opis>Dom bogate povijesti, kulture i raznolike prirode.</opis>
+    <zanimljivost>Europa ima više od 50 zemalja na relativno malom prostoru.</zanimljivost>
+  </kontinent>
+  <kontinent ime="Azija">
+    <opis>Najveći kontinent s nevjerojatnom raznolikošću kultura i krajolika.</opis>
+    <zanimljivost>U Aziji živi više od 4.5 milijardi ljudi — 60% svjetske populacije.</zanimljivost>
+  </kontinent>
+  <kontinent ime="Amerika">
+    <opis>Od tropskih prašuma Amazone do ledenih vrhova Patagonije.</opis>
+    <zanimljivost>Amazon prašuma proizvodi 20% kisika na Zemlji.</zanimljivost>
+  </kontinent>
+  <kontinent ime="Afrika">
+    <opis>Kolijevka civilizacije s nevjerojatnom bioraznolikošću i kulturom.</opis>
+    <zanimljivost>Afrika je dom za više od 1500 različitih jezika.</zanimljivost>
+  </kontinent>
+  <kontinent ime="Oceanija">
+    <opis>Zemlja koralnih grebena, netaknutih plaža i jedinstvene faune.</opis>
+    <zanimljivost>Australija je jedina zemlja koja je ujedno i cijeli kontinent.</zanimljivost>
+  </kontinent>
+</kontinenti>
