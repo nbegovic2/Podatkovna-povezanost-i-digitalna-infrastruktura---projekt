@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bucket List – Početna</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="logo">🗺️ Bucket List</a>
+  <div class="nav-links">
+    <a href="index.html">Početna</a>
+    <a href="destinacije.html">Destinacije</a>
+    <a href="kontinenti.html">Kontinenti</a>
+    <a href="kontakt.html">Kontakt</a>
+  </div>
+</nav>
+
+<div class="page">
+
+  <h1>Tvoj bucket list</h1>
+  <p class="subtitle">Bilježi mjesta koja želiš posjetiti i prati svoj napredak.</p>
+
+  <div class="stats-row">
+    <div class="stat-card">
+      <div class="stat-num" id="stat-ukupno">0</div>
+      <div class="stat-label">Ukupno</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-posjeceno">0</div>
+      <div class="stat-label">Posjećeno</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-num" id="stat-preostalo">0</div>
+      <div class="stat-label">Preostalo</div>
+    </div>
+  </div>
+
+  <div class="progress-wrap">
+    <div class="progress-meta">
+      <span class="section-label">Napredak</span>
+      <span id="stat-pct" style="font-size:0.82rem; color:var(--muted)">0%</span>
+    </div>
+    <div class="progress-track">
+      <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+    </div>
+  </div>
+
+  <div class="form-card">
+    <h2 style="margin-bottom:18px">Dodaj destinaciju</h2>
+    <div id="form-alert" class="alert"></div>
+    <form onsubmit="dodajDestinaciju(event)">
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="inp-naziv">Naziv *</label>
+          <input type="text" id="inp-naziv" placeholder="npr. Santorini" required>
+        </div>
+        <div class="form-group">
+          <label for="inp-zemlja">Zemlja *</label>
+          <input type="text" id="inp-zemlja" placeholder="npr. Grčka" required>
+        </div>
+        <div class="form-group">
+          <label for="inp-kont">Kontinent</label>
+          <select id="inp-kont">
+            <option>Europa</option>
+            <option>Azija</option>
+            <option>Amerika</option>
+            <option>Afrika</option>
+            <option>Australija i Oceanija</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="inp-tip">Tip</label>
+          <select id="inp-tip">
+            <option>Plaža</option>
+            <option>Grad</option>
+            <option>Priroda</option>
+            <option>Kultura</option>
+            <option>Avantura</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group" style="margin-bottom:14px">
+        <label for="inp-opis">Kratki opis</label>
+        <textarea id="inp-opis" placeholder="Zašto želiš posjetiti ovo mjesto?"></textarea>
+      </div>
+      <button type="submit" class="btn-primary">+ Dodaj na listu</button>
+    </form>
+  </div>
+
+  <div class="section-label" id="list-label">Sve destinacije</div>
+  <div class="filters" id="filters"></div>
+  <div class="dest-grid" id="dest-grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
