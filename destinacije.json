@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "naziv": "Santorini",
+    "zemlja": "Grčka",
+    "kontinent": "Europa",
+    "tip": "Plaža",
+    "opis": "Poznati otok s bijelim kućama i plavim kupolama iznad Egejskog mora.",
+    "posjećeno": false
+  },
+  {
+    "id": 2,
+    "naziv": "Kyoto",
+    "zemlja": "Japan",
+    "kontinent": "Azija",
+    "tip": "Kultura",
+    "opis": "Grad hramova, zen vrtova i tradicionalnih čajnih ceremonija.",
+    "posjećeno": false
+  },
+  {
+    "id": 3,
+    "naziv": "Patagonia",
+    "zemlja": "Argentina",
+    "kontinent": "Amerika",
+    "tip": "Priroda",
+    "opis": "Netaknuta divljina na kraju svijeta s ledenjacima i planinama.",
+    "posjećeno": false
+  },
+  {
+    "id": 4,
+    "naziv": "Dubai",
+    "zemlja": "UAE",
+    "kontinent": "Azija",
+    "tip": "Grad",
+    "opis": "Futuristički grad s najvišim zgradama i luksuznim iskustvima.",
+    "posjećeno": true
+  },
+  {
+    "id": 5,
+    "naziv": "Kilimanjaro",
+    "zemlja": "Tanzanija",
+    "kontinent": "Afrika",
+    "tip": "Avantura",
+    "opis": "Najviši vrh Afrike — treking do 5895 metara nadmorske visine.",
+    "posjećeno": false
+  },
+  {
+    "id": 6,
+    "naziv": "Dubrovnik",
+    "zemlja": "Hrvatska",
+    "kontinent": "Europa",
+    "tip": "Kultura",
+    "opis": "Biser Jadrana s povijesnim zidinama i kristalno čistim morem.",
+    "posjećeno": true
+  }
+]
